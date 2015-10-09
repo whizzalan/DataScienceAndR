@@ -1,0 +1,16 @@
+- Class: meta
+  Course: DataScienceAndR
+  Lesson: RProgramming-01-Control-Statement
+  Author: Wush Wu
+  Type: Standard
+  Organization: Taiwan R User Group
+  Version: 0.1
+- Class: text
+  Output: 各位同學好，這個課程會簡短跟大家介紹R 中撰寫迴圈和條件判斷的方式。
+- Class: cmd_question
+  Output: 這個課程中，我們使用iris資料集做說明。請同學先用`head(iris)` 看看這個iris的資料。
+  CorrectAnswer: head(iris)
+  AnswerTests: omnitest('iris', head(datasets::iris))
+  Hint: 如果`head(iris)`出錯的話，請先試試看`rm(iris)`之後再輸入`head(iris)`。 ps. 這代表你可能有存一些資料到`iris`這個變數。
+- Class: cmd_question
+
